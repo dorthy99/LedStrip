@@ -10,6 +10,11 @@ for i in range (500):
                 time.sleep(.03)
                 pixels[i] = (0,0,0)
         pixels[i] = (0,0,255)
+        for i in range(19,0,-1):
+                pixels[i] = (0,0,255)
+                time.sleep(.03)
+                pixels[i] = (0,0,0)
+        pixels[i] = (0,0,255)
         for i in range(19,1,-1):
                 pixels[i] = (0,0,255)
                 time.sleep(.03)
