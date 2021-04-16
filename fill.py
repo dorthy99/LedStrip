@@ -9,7 +9,7 @@ for i in range (500):
                 pixels[i] = (0,0,255)
                 time.sleep(.03)
                 pixels[i] = (0,0,0)
-        pixels[i] = (255,215,0)
+        pixels[i] = (255,140,0)
         for i in range(19,0,-1):
                 pixels[i] = (0,0,255)
                 time.sleep(.03)
@@ -19,7 +19,7 @@ for i in range (500):
                 pixels[i] = (0,0,255)
                 time.sleep(.03)
                 pixels[i] = (0,0,0)
-        pixels[i] = (255,155,0)
+        pixels[i] = (255,65,0)
         for i in range(19,2,-1):
                 pixels[i] = (0,0,255)
                 time.sleep(.03)
