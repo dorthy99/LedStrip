@@ -7,12 +7,26 @@ pixels = neopixel.NeoPixel(board.D18, 20)
 for i in range (500):
         for i in range(19,-1,-1):
                 pixels[i] = (0,0,255)
-                time.sleep(.2)
+                time.sleep(.4)
                 pixels[i] = (0,0,0)
         pixels[i] = (0,0,255)
         for i in range(19,0,-1):
                 pixels[i] = (0,0,255)
-                time.sleep(.2)
+                time.sleep(.4)
                 pixels[i] = (0,0,0)
         pixels[i] = (0,0,255)
-print("done")
+        for i in range(19,1,-1):
+                pixels[i] = (0,0,255)
+                time.sleep(.4)
+                pixels[i] = (0,0,0)
+        pixels[i] = (0,0,255)
+        for i in range(19,2,-1):
+                pixels[i] = (0,0,255)
+                time.sleep(.4)
+                pixels[i] = (0,0,0)
+        pixels[i] = (0,0,255)
+        for i in range(19,3,-1):
+                pixels[i] = (0,0,255)
+                time.sleep(.4)
+                pixels[i] = (0,0,0)
+        pixels[i] = (0,0,255)
