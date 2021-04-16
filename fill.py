@@ -15,3 +15,4 @@ for i in range (500):
                 time.sleep(.13)
                 pixels[i] = (0,0,0)
         pixels[i] = (0,0,255)
+print("done")
