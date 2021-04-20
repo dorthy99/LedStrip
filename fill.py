@@ -112,6 +112,6 @@ for i in range (500):
         pixels[i] = (255,50,0)
 
         for i in range(19,-1,):
-                pixels[i] = (255,50,0)
+                pixels[i] = (0,0,0)
                 time.sleep(.03)
                 pixels[i] = (255,50,0)
