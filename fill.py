@@ -4,7 +4,7 @@ import time
 
 pixels = neopixel.NeoPixel(board.D18, 20)
 
-t = .02
+t = .01
 s = -1
 for i in range (1):
         for i in range(19,-1,s):
