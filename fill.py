@@ -28,7 +28,7 @@ for i in range (1):
         for i in range(19,3,-1):
                 pixels[i] = (255,50,0)
                 time.sleep(.03)
-                pixels[i] = (255,50,0)
+                pixels[i] = (0,0,0)
         pixels[i] = (255,50,0)
         for i in range(19,4,-1):
                 pixels[i] = (255,50,0)
