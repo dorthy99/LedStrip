@@ -113,6 +113,5 @@ for i in range (1):
         for i in range(20):
                 pixels[i] = (0,0,0)
         for i in range(20):
-                pixels[i] = (255,50,0)
                 time.sleep(.3)
                 pixels[i] = (255,50,0)
