@@ -5,7 +5,7 @@ import time
 pixels = neopixel.NeoPixel(board.D18, 20)
 
 t = .005
-s = 1
+s = -1
 for i in range (1):
         for i in range(19,-1,s):
                 pixels[i] = (255,50,0)
@@ -114,6 +114,9 @@ for i in range (1):
 
         for i in range(20):
                 pixels[i] = (0,0,0)
+        time.sleep(.3)
+        for i in range(20):
+                pixels[i] = (255,50,0)
         time.sleep(.3)
         for i in range(20):
                 pixels[i] = (255,50,0)
