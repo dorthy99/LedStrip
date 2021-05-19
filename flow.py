@@ -19,7 +19,7 @@ def xtwo(dt):
             r = 0
         if r > 255:
             r = 255
-        pixels[x] = (r,255,0)
+        pixels[x] = (r,25,215)
         time.sleep(.01)
 def left(dt):
     for i in range (10):
@@ -35,6 +35,6 @@ fillup(.01)
 clear()
 fillup(.01)
 clear()
-xtwo(.01)
+xtwo(.05)
 clear()
 left(1)
