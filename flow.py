@@ -7,7 +7,7 @@ pixels = neopixel.NeoPixel(board.D18, n)
 
 def fillup(dt):
     for i in range(n):
-        pixels[i] = (100,255,0)
+        pixels[i] = (255,255,0)
         time.sleep(dt)
 def clear():
     for i in range(n):
@@ -20,7 +20,7 @@ def xtwo():
         if r > 255:
             r = 255
         pixels[x] = (r,0,0)
-        time.sleep(.1)
+        time.sleep(.01)
 
 fillup(.01)
 clear()
