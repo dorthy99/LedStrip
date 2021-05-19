@@ -22,5 +22,7 @@ def xtwo():
         pixels[x] = (r,0,0)
 
 fillup(.1)
-print("h")
+clear()
 fillup(.5)
+clear()
+xtwo()
