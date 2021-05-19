@@ -14,7 +14,7 @@ def clear():
         pixels[i] = (0,0,0)
 def xtwo():
     for x in range(n):
-        r = x**2
+        r = 2+x**2
         if r < 0:
             r = 0
         if r > 255:
@@ -22,7 +22,7 @@ def xtwo():
         pixels[x] = (r,0,0)
         time.sleep(.1)
 
-fillup(.1)
+fillup(.01)
 clear()
 fillup(.01)
 clear()
