@@ -28,7 +28,7 @@ def left(dt):
             b = 0
         if b > 255:
             b = 255
-        pixels[x] = (0,b,50)
+        pixels[i] = (0,b,50)
         time.sleep(.01)
 
 fillup(.01)
