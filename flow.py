@@ -20,10 +20,10 @@ def xtwo():
         if r > 255:
             r = 255
         pixels[x] = (r,0,0)
-        time.sleep(dt)
+        time.sleep(.1)
 
 fillup(.1)
 clear()
-fillup(.5)
+fillup(.01)
 clear()
 xtwo()
