@@ -21,7 +21,7 @@ def xtwo(dt):
             r = 255
         pixels[x] = (r,100,0)
         time.sleep(.01)
-def left():
+def left(dt):
     for i in range (10):
         b = 5*x**2
         if b < 0:
@@ -29,6 +29,7 @@ def left():
         if b > 255:
             b = 255
         pixels[x] = (0,b,50)
+        time.sleep(.01)
 
 fillup(.01)
 clear()
