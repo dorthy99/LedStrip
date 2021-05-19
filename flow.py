@@ -23,7 +23,7 @@ def xtwo(dt):
         time.sleep(.01)
 def left(dt):
     for i in range (10):
-        b = 5*x**2
+        b = 5*i**2
         if b < 0:
             b = 0
         if b > 255:
