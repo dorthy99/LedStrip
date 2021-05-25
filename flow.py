@@ -31,14 +31,14 @@ def left(dt):
         pixels[i] = (0,b,50)
         time.sleep(.01)
 
-for i in range (20,10,-1):
-    r = 5*i**2
-    if r < 0:
-        r = 0
-    if r > 255:
-        r = 255
-    pixels[i] = (r,0,50)
-    time.sleep(.01)
+# for i in range (20,10,-1):
+#     r = 5*i**2
+#     if r < 0:
+#         r = 0
+#     if r > 255:
+#         r = 255
+#     pixels[i] = (r,0,50)
+#     time.sleep(.01)
 
 fillup(.01)
 clear()
